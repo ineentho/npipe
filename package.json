@@ -4,7 +4,7 @@
   "description": "``` # Transform single JSON document echo '[1, 2]' |\\ \tnpipe 'in => in.map(n => n*2)' # stdout: [2, 4]",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "bin": {
     "npipe": "./index.js"
@@ -15,5 +15,8 @@
   "dependencies": {
     "event-stream": "^3.3.4",
     "nopt": "^4.0.1"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1"
   }
 }
