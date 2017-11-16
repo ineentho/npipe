@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-const JSONStream = require('JSONStream')
 const es = require('event-stream')
 const nopt = require('nopt')
 const fs = require('fs')
