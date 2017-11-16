@@ -1,6 +1,6 @@
 {
   "name": "npipe",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "``` # Transform single JSON document echo '[1, 2]' |\\ \tnpipe 'in => in.map(n => n*2)' # stdout: [2, 4]",
   "main": "index.js",
   "scripts": {
